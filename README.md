@@ -21,7 +21,9 @@ source bin/activate
 
 ### Run Steps
 cd ..
+<br>
 cd LMS
+<br>
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
